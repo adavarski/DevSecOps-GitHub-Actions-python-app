@@ -84,6 +84,12 @@ jobs:
       name: scout-findings
       path: scout-report.sarif
 
+   - name: Run the SCA scan on the source code
+     uses: snyk/actions/node@master
+     continue-on-error: true
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
 
 #   - name: Login to DockerHub
 #     uses: docker/login-action@v2
