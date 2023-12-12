@@ -17,8 +17,11 @@ Ref: Bandit
 - https://bandit.readthedocs.io/en/latest/
 - https://github.com/PyCQA/bandit
 
-### Container Image Scanning with Docker Scout (or Snyk):
+### Container Image Scanning with Docker Scout:
 Identify vulnerabilities in built images -> DockerHub Scout Image Scanner
+
+Note: Note: Docker Scout is available through multiple interfaces, including the Docker Desktop and DockerHub user interfaces, as well as a web-based user interface and a command-line interface (CLI) plugin.
+This is a demo about the integration of Docker Scout with GitHub actions using the CLI.
 
 Ref: Docker Scout Links:
 - Docker Scout: https://docs.docker.com/scout/
