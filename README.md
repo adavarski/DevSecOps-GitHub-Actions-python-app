@@ -53,7 +53,7 @@ Events:
 
 https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows
 
-GH actions we use:
+GH actions we use in this repo:
 
 https://github.com/docker/scout-action
 ...
