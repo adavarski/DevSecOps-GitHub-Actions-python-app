@@ -14,7 +14,7 @@ Ref: https://owasp.org/www-project-pygoat/
 SAST (Static Application Security Testing): static analysis of the application source code for exploits, bugs, vulnerabilites -> Bandit (Bandit is a tool designed to find common security issues in Python code)
 
 Ref: Bandit
-https://github.com/PyCQA/bandit
+- https://github.com/PyCQA/bandit
 
 ### Container Image Scanning with Docker Scout (or Snyk):
 Identify vulnerabilities in built images (DockerHub Scout Image Scanner)
