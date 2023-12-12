@@ -53,7 +53,7 @@ jobs:
      uses: snyk/actions/python-3.8@master
      continue-on-error: true
      env:
-        COMMAND: "pip install -r requirements.txt"
+        #COMMAND: "pip install -r requirements.txt"
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
      with:
         args: --severity-threshold=high       
