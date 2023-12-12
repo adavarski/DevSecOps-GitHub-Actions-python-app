@@ -6,7 +6,7 @@ Overview:
 
 ### OWASP vulnerable Python app: 
 
-https://github.com/adeyosemanputra/pygoat -> PyGoat is written in python and used Django web framework as a platform. It has both traditional web application vulnerabilities (i.e. XSS, SQLi) as well. 
+https://github.com/adeyosemanputra/pygoat (this repo is based on pygoat repo) -> PyGoat is written in python and used Django web framework as a platform. It has both traditional web application vulnerabilities (i.e. XSS, SQLi) as well. 
 
 Ref: https://owasp.org/www-project-pygoat/
 
