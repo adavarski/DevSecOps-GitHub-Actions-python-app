@@ -41,13 +41,12 @@ jobs:
    runs-on: ubuntu-latest
 
    steps:
-    - name: Run the SCA scan on the source code
+    - name: Run the SCA Snyk scan on the source code
       uses: snyk/actions/node@master
       continue-on-error: true
          env:
            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
       
-
  image_scan:
    name: Build Image and Run Image Scan
    runs-on: ubuntu-latest
