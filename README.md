@@ -38,9 +38,9 @@ Ref: Docker Scout Links:
 
 
   
-### How to generate scan reports (Bandit & Docker Scout)
+### How to generate scan reports (Bandit, Snyk & Docker Scout)
 
-### How to analyze scan reports (json report files)
+### How to analyze scan reports (json & serif report files)
 
 Ref: 
 https://www.defectdojo.org
