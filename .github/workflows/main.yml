@@ -61,7 +61,7 @@ jobs:
       path: snyk-report.sarif
 
 
-#   Note: Need Snyk Github integration        
+#   Note: Need Snyk Github integration settuped       
 #   - name: Upload result to GitHub Code Scanning
 #     uses: github/codeql-action/upload-sarif@v2
 #     with:
