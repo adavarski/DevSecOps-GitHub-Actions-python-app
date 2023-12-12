@@ -45,26 +45,37 @@ jobs:
    - name: Build Docker Image
      run: docker build -f Dockerfile -t myapp:latest .
 
-   - name: Login to DockerHub
-     id: dockerhub-login
-     uses: docker/login-action@v2
+#   - name: Login to DockerHub
+#     id: dockerhub-login
+#     uses: docker/login-action@v2
+#     with:
+#       username: ${{ secrets.DOCKERHUB_USERNAME }}
+#       password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+#   - name: Docker Scout Scan
+#     run: |
+#       curl -fsSL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh -o install-scout.sh
+#       sh install-scout.sh
+#       docker scout quickview
+#       docker scout cves
+
+
+   - name: Docker Scout
+     uses: docker/scout-action@v1
      with:
-       username: ${{ secrets.DOCKERHUB_USERNAME }}
-       password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-   - name: Docker Scout Scan
-     run: |
-       curl -fsSL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh -o install-scout.sh
-       sh install-scout.sh
-
-   
-       docker scout quickview
-       docker scout cves
+       dockerhub-user: ${{ secrets.DOCKERHUB_USERNAME }}
+       dockerhub-password: ${{ secrets.DOCKERHUB_TOKEN }}
+       command: quickview,cves
+       only-severities: critical,high
+       sarif-file: scout-report.sarif
 
 
-
-
-
+   - name: Upload Artifact
+     uses: actions/upload-artifact@v3
+     if: always()
+     with:
+      name: scout-findings
+      path: scout-report.sarif
 
    
 
