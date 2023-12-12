@@ -22,7 +22,7 @@ Ref: Bandit
 Ref: Snyk:
 - https://github.com/snyk/actions
 - https://github.com/snyk/actions/tree/master/python-3.8
-- https://snyk.io/partners/docker/ (Snyk: Configure integration for DockerHub for docker images scanning)
+- https://snyk.io/partners/docker/ (Snyk: Configure integration for DockerHub for docker images scanning : https://docs.snyk.io/integrate-with-snyk/snyk-container-integrations/container-security-with-docker-hub-integration/configure-integration-for-docker-hub)
 
 Note: https://app.snyk.io/account to get SNYK_TOKEN
 
