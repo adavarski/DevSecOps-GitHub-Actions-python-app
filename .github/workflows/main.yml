@@ -60,7 +60,7 @@ jobs:
 #       docker scout cves
 
 
-   - name: Docker Scout
+   - name: Docker Scout Scan
      uses: docker/scout-action@v1
      with:
        dockerhub-user: ${{ secrets.DOCKERHUB_USERNAME }}
