@@ -1,4 +1,4 @@
-## DevSecOps pipeline with Github Actions
+## DevSecOps pipeline/workflow with Github Actions
 
 Overview: 
 
