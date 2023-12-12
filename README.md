@@ -17,7 +17,7 @@ Ref: Bandit
 - https://github.com/PyCQA/bandit
 
 ### Container Image Scanning with Docker Scout (or Snyk):
-Identify vulnerabilities in built images (DockerHub Scout Image Scanner)
+Identify vulnerabilities in built images -> DockerHub Scout Image Scanner
 
 Ref: Docker Scout:
 - Docker Scout: https://docs.docker.com/scout/
