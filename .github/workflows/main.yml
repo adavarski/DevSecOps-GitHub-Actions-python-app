@@ -53,10 +53,19 @@ jobs:
      with:
         args: --severity-threshold=high --sarif-file-output=snyk-report.sarif
         
-   - name: Upload result to GitHub Code Scanning
-     uses: github/codeql-action/upload-sarif@v2
+   - name: Upload Artifact
+     uses: actions/upload-artifact@v3
+     if: always()
      with:
-          sarif_file: snyk-report.sarif    
+      name: snyk-findings
+      path: snyk-report.sarif
+
+
+#   Note: Need Snyk Github integration        
+#   - name: Upload result to GitHub Code Scanning
+#     uses: github/codeql-action/upload-sarif@v2
+#     with:
+#          sarif_file: snyk-report.sarif    
       
  image_scan:
    name: Build Image and Run Image Scan
