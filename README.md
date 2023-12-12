@@ -20,7 +20,7 @@ Identify vulnerabilities in built images -> DockerHub Scout Image Scanner
 
 Ref: Docker Scout Links:
 - Docker Scout: https://docs.docker.com/scout/
-- Docker Scout CLI: https://docs.docker.com/engine/reference/commandline/scout/
+- Docker Scout CLI: https://docs.docker.com/engine/reference/commandline/scout/ && https://github.com/docker/scout-cli
 - Docker Scout GitHub Action: https://github.com/docker/scout-action
 
 Note: We can use Snyk instead of Scout (Bitbucket use Snyk)
