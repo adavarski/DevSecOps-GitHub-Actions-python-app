@@ -26,7 +26,7 @@ This is a demo about the integration of Docker Scout with GitHub actions using t
 Ref: Docker Scout Links:
 - Docker Scout: https://docs.docker.com/scout/
 - Docker Scout CLI: https://docs.docker.com/engine/reference/commandline/scout/ && https://github.com/docker/scout-cli
-- Docker Scout GitHub Action: https://github.com/docker/scout-action
+- Docker Scout GitHub Action: https://github.com/docker/scout-action && https://docs.docker.com/scout/integrations/ci/gha/
 
 Note: We can use Snyk instead of Bandit & Scout (Bitbucket use Snyk)
 
