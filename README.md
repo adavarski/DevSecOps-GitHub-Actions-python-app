@@ -25,6 +25,7 @@ Ref: Snyk:
 - https://snyk.io/partners/docker/ (for docker images scanning)
 
 Note: https://app.snyk.io/account to get SNYK_TOKEN
+
 Note: We can use Snyk && Bandit for SCA (Source Code Analysis -> SAST) and Docker Scout for Docker Image scanning: (Bitbucket use Snyk for SCA for example)
 
 ### Container Image Scanning with Docker Scout:
