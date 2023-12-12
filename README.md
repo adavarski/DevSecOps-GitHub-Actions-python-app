@@ -10,10 +10,12 @@ https://github.com/adeyosemanputra/pygoat -> PyGoat is written in python and use
 
 Ref: https://owasp.org/www-project-pygoat/
 
-### SAST Scan with Bandit (or Snyk):
+### SAST Scan with Bandit:
 SAST (Static Application Security Testing): static analysis of the application source code for exploits, bugs, vulnerabilites -> Bandit (Bandit is a tool designed to find common security issues in Python code)
 
-Ref: Bandit (https://github.com/PyCQA/bandit)
+Ref: Bandit 
+- https://bandit.readthedocs.io/en/latest/
+- https://github.com/PyCQA/bandit
 
 ### Container Image Scanning with Docker Scout (or Snyk):
 Identify vulnerabilities in built images -> DockerHub Scout Image Scanner
@@ -23,7 +25,7 @@ Ref: Docker Scout Links:
 - Docker Scout CLI: https://docs.docker.com/engine/reference/commandline/scout/ && https://github.com/docker/scout-cli
 - Docker Scout GitHub Action: https://github.com/docker/scout-action
 
-Note: We can use Snyk instead of Scout (Bitbucket use Snyk)
+Note: We can use Snyk instead of Bandit & Scout (Bitbucket use Snyk)
 
 Ref: Snyk:
 - https://snyk.io/partners/docker/
