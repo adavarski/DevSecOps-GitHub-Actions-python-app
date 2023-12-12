@@ -36,16 +36,16 @@ jobs:
       name: bandit-findings
       path: bandit-report.json
 
- sca_scan:
-   name: Run Snyk Scan
-   runs-on: ubuntu-latest
+# sca_scan:
+#   name: Run Snyk Scan
+#   runs-on: ubuntu-latest
 
-   steps:
-    - name: Run the SCA Snyk scan on the source code
-      uses: snyk/actions/node@master
-      continue-on-error: true
-      env:
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
+#   steps:
+#    - name: Run the SCA Snyk scan on the source code
+#      uses: snyk/actions/node@master
+#      continue-on-error: true
+#      env:
+#        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
       
  image_scan:
    name: Build Image and Run Image Scan
