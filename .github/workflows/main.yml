@@ -36,6 +36,18 @@ jobs:
       name: bandit-findings
       path: bandit-report.json
 
+ sca_scan:
+   name: Run Snyk Scan
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: Run the SCA scan on the source code
+      uses: snyk/actions/node@master
+      continue-on-error: true
+         env:
+           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
+      
+
  image_scan:
    name: Build Image and Run Image Scan
    runs-on: ubuntu-latest
@@ -83,12 +95,6 @@ jobs:
      with:
       name: scout-findings
       path: scout-report.sarif
-
-   - name: Run the SCA scan on the source code
-     uses: snyk/actions/node@master
-     continue-on-error: true
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
 
 #   - name: Login to DockerHub
