@@ -20,10 +20,12 @@ Ref: Bandit
 ### SAST Scan with Snyk:
 
 Ref: Snyk:
-- https://snyk.io/partners/docker/
 - https://github.com/snyk/actions
+- https://github.com/snyk/actions/tree/master/python-3.8
+- https://snyk.io/partners/docker/ (for docker images scanning)
 
-Note: We can use Snyk instead of Bandit for SCA (Source Code Analysis -> SAST) and instead of Docker Scout for Docker Image scanning: (Bitbucket use Snyk)
+Note: https://app.snyk.io/account to get SNYK_TOKEN
+Note: We can use Snyk && Bandit for SCA (Source Code Analysis -> SAST) and Docker Scout for Docker Image scanning: (Bitbucket use Snyk for SCA for example)
 
 ### Container Image Scanning with Docker Scout:
 Identify vulnerabilities in built images -> DockerHub Scout Image Scanner
