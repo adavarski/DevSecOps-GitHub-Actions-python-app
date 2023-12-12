@@ -106,7 +106,8 @@ jobs:
        command: quickview,cves
        only-severities: critical,high
        sarif-file: scout-report.sarif
-
+       
+#Common Vulnerabilities and Exposures (CVE) & QuickBiew
 
    - name: Upload Artifact
      uses: actions/upload-artifact@v3
