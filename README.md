@@ -42,7 +42,7 @@ Ref:
 https://www.defectdojo.org
 
 
-Note: GH Actions: 
+### GH Actions References: 
 
 List of GitHub Actions:
 
