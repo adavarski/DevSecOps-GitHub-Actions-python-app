@@ -11,8 +11,8 @@ Container Image Scanning with Docker Scout - > Identify vulnerabilities in built
 How to generate scan reports
 
 Ref: Docker Scout Links:
-    - Docker Scout: https://docs.docker.com/scout/
-    - Docker Scout CLI: https://docs.docker.com/engine/refere...](https://docs.docker.com/engine/reference/commandline/scout/
-    - Docker Scout GitHub Action: https://github.com/docker/scout-action
+- Docker Scout: https://docs.docker.com/scout/
+- Docker Scout CLI: https://docs.docker.com/engine/refere...](https://docs.docker.com/engine/reference/commandline/scout/
+- Docker Scout GitHub Action: https://github.com/docker/scout-action
 
 
