@@ -41,7 +41,8 @@ Ref: Snyk:
 Ref: 
 https://www.defectdojo.org
 
-Ref: GH Actions: 
+
+Note: GH Actions: 
 
 List of GitHub Actions:
 
@@ -52,7 +53,7 @@ Events:
 
 https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows
 
-Docker action we use in the tutorial:
+GH actions we use:
 
 https://github.com/docker/scout-action
 ...
