@@ -41,12 +41,21 @@ jobs:
    runs-on: ubuntu-latest
 
    steps:
-    - name: Run the SCA Snyk scan on the source code
-      uses: snyk/actions/python@master
-      continue-on-error: true
-      env:
+   - name: Checkout code
+     uses: actions/checkout@v2
+
+   - name: Set up Python
+     uses: actions/setup-python@v2
+     with:
+       python-version: 3.8
+          
+   - name: Run the SCA Snyk scan on the source code
+     uses: snyk/actions/python-3.8@master
+     continue-on-error: true
+     env:
+        COMMAND: "pip install -r requirements.txt"
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
-      with:
+     with:
         args: --severity-threshold=high       
       
  image_scan:
