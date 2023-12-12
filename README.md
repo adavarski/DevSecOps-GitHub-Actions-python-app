@@ -19,7 +19,7 @@ Ref: Bandit
 
 ### SCA Scan with Snyk:
 
-SCA (Software Composition Analysis): third-party dependency scanning with Snyk:
+SCA (Software Composition Analysis): check external dependencies/libraries used by the project have no known vulnerabilities. Third-party dependency scanning with Snyk.
 
 Ref: Snyk:
 - https://github.com/snyk/actions
