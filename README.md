@@ -50,6 +50,8 @@ Ref: Docker Scout Links:
 ### How to analyze scan reports (json & serif report files)
 
 Ref: 
+https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning
+
 https://www.defectdojo.org
 
 
