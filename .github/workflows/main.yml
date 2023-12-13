@@ -62,10 +62,10 @@ jobs:
 
 
 #   Note: Need Snyk Github integration settuped       
-   - name: Upload result to GitHub Code Scanning
-     uses: github/codeql-action/upload-sarif@v2
-     with:
-          sarif_file: snyk-report.sarif    
+#   - name: Upload result to GitHub Code Scanning
+#     uses: github/codeql-action/upload-sarif@v2
+#     with:
+#          sarif_file: snyk-report.sarif    
       
  image_scan:
    name: Build Image and Run Image Scan
