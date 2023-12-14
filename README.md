@@ -1,4 +1,4 @@
-## DevSecOps pipeline/workflow with Github Actions
+## DevSecOps pipelines/workflows with Github Actions
 
 Overview: 
 
@@ -54,6 +54,9 @@ https://docs.github.com/en/code-security/code-scanning/integrating-with-code-sca
 
 https://www.defectdojo.org
 
+### GitHub Code Scanning using GitHub Actions and Github CodeQL.
+
+Repo Settings - Security (view report)
 
 ### GH Actions References: 
 
