@@ -56,7 +56,7 @@ https://www.defectdojo.org
 
 ### GitHub Code Scanning using GitHub Actions and Github CodeQL.
 
-Repo Settings - Security (view report)
+Repo "Settings" - < Code Security and Analysis (setup workflow and view report after workflow execution)
 
 ### GH Actions References: 
 
