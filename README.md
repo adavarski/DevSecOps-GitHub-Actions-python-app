@@ -54,7 +54,7 @@ https://docs.github.com/en/code-security/code-scanning/integrating-with-code-sca
 
 https://www.defectdojo.org
 
-### GitHub Code Scanning using GitHub Actions and Github CodeQL for Code scanning 
+### GitHub Code Scanning using GitHub Actions and Github CodeQL for Code scanning (SAST) 
 
 Repo "Settings" - < Code Security and Analysis (setup Code scanning: Advanced workflow and view report after CodeQL workflow execution)
 
