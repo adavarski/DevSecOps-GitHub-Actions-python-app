@@ -9,7 +9,7 @@ Overview:
 | Step                                                    | Github Action                                                                            | Comments | Open Source Alternative                             |
 | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- |
 | SCA: Software Composition Analysis (Dependency Checker) | [snyk](https://github.com/marketplace/actions/snyk)                                      |          | OWASP Dependency Check                              |
-| SAST: Static Code Analysis                              | [Bandit]((https://github.com/PyCQA/bandit))                                              |          |                                                     |
+| SAST: Static Code Analysis                              | [Bandit](https://github.com/PyCQA/bandit)                                            |          |                                                     |
 | Container Scan                                          | [Docker Scout](https://github.com/marketplace/actions/docker-scout)                      |          |                                                     |
 
 
