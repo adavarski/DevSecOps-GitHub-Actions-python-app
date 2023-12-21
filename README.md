@@ -4,6 +4,15 @@ Overview:
 
 <img src="pictures/DevSecOps-pipeline-GH-Actions-python-app.png?raw=true" width="1000">
 
+## GitHub Actions Used 
+
+| Step                                                    | Github Action                                                                            | Comments | Open Source Alternative                             |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- |
+| SCA: Software Composition Analysis (Dependency Checker) | [snyk](https://github.com/marketplace/actions/snyk)                                      |          | OWASP Dependency Check                              |
+| SAST: Static Code Analysis                              | [Bandit]((https://github.com/PyCQA/bandit))                                              |          |                                                     |
+| Container Scan                                          | [Docker Scout](https://github.com/marketplace/actions/docker-scout)                      |          |                                                     |
+
+
 ### OWASP vulnerable Python app: 
 
 https://github.com/adeyosemanputra/pygoat (this repo is based on pygoat repo) -> PyGoat is written in python and used Django web framework as a platform. It has both traditional web application vulnerabilities (i.e. XSS, SQLi) as well. 
